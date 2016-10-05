@@ -319,13 +319,13 @@ func (p *Plugin) allControlDetails() []controlDetails {
 		{
 			id:    "switchToIdle",
 			human: "Switch to idle",
-			icon:  "fa-beer",
+			icon:  "fa-gears",
 			dead:  !p.iowaitMode,
 		},
 		{
 			id:    "switchToIOWait",
 			human: "Switch to IO wait",
-			icon:  "fa-hourglass",
+			icon:  "fa-clock-o",
 			dead:  p.iowaitMode,
 		},
 	}
