@@ -10,7 +10,7 @@ The Scope IOWait plugin is a GO application that uses [`iostat`](https://linux.d
 
 ```
 docker pull weaveworks-plugins/scope-iowait:latest
-docker run --rm --ti \ 
+docker run --rm -ti \
 	--net=host \
 	-v /var/run/scope/plugins:/var/run/scope/plugins \
 	--name weaveworks-plugins-scope-iowait weaveworks-plugins/scope-iowait:latest
@@ -25,3 +25,12 @@ cd scope-iowait; make;
 
 **Note** If Scope IOWait plugin has been registered by Scope, you will see it in the list of `PLUGINS` in the bottom right of the UI (see the rectangle in the above figure).
 The measured value is showed in the *STATUS* section (see the circle in the above figure).
+
+## How to use Scope IOWait Plugin
+
+The plugin can show in the UI 2 metrics collected by _iostat_:
+
+* Idle: show the percentage of time that the CPU or CPUs were idle and the system did not have an outstanding disk I/O request. This metrics is shown by the default.
+* IO Wait: Show the percentage of time that the CPU or  CPUs  were idle  during  which  the system had an outstanding disk I/O request.
+
+To switch between metrics you can use the controls. The `clock` icon (see green box in the above figure) switches to IO Wait metric and the `gears` icon switches to idle metric.
