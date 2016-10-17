@@ -2,7 +2,7 @@
 
 SUDO=$(shell docker info >/dev/null 2>&1 || echo "sudo -E")
 EXE=iowait
-ORGANIZATION=weaveworks-plugins
+ORGANIZATION=weaveworksplugins
 IMAGE=$(ORGANIZATION)/scope-$(EXE)
 NAME=$(ORGANIZATION)-scope-$(EXE)
 UPTODATE=.$(EXE).uptodate
