@@ -8,12 +8,19 @@ The Scope IOWait plugin is a GO application that uses [`iostat`](https://linux.d
 
 * Using a pre-built Docker image
 
+If you want to make sure of running the latest available version of the plugin, you pull the image from docker hub.
+
 ```
-docker pull weaveworks-plugins/scope-iowait:latest
+docker pull weaveworksplugins/scope-iowait:latest
+```
+
+To run the Scope IOWait plugin you just need to run the following command.
+
+```
 docker run --rm -ti \
 	--net=host \
 	-v /var/run/scope/plugins:/var/run/scope/plugins \
-	--name weaveworks-plugins-scope-iowait weaveworks-plugins/scope-iowait:latest
+	--name weaveworksplugins-scope-iowait weaveworksplugins/scope-iowait:latest
 ```
 
 * Recompiling an image
