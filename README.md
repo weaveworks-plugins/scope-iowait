@@ -6,7 +6,7 @@ The Scope IOWait plugin is a GO application that uses [`iostat`](https://linux.d
 
 ## How to Run Scope IOWait Plugin
 
-* Using a pre-built Docker image
+### Using a pre-built Docker image
 
 If you want to make sure of running the latest available version of the plugin, you pull the image from docker hub.
 
@@ -23,7 +23,15 @@ docker run --rm -ti \
 	--name weaveworksplugins-scope-iowait weaveworksplugins/scope-iowait:latest
 ```
 
-* Recompiling an image
+### Kubernetes
+
+If you want to use the Scope IOWait plugin in an already set up Kubernetes cluster with Weave Scope running on it, you just need to run:
+
+```
+kubectl apply -f https://github.com/weaveworks-plugins/scope-iowait/tree/master/deployments/k8s-iowait.yaml
+```
+
+### Recompiling an image
 
 ```
 git clone git@github.com:weaveworks-plugins/scope-iowait.git
