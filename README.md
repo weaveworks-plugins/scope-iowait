@@ -6,6 +6,11 @@ The Scope IOWait plugin is a GO application that uses [`iostat`](https://linux.d
 
 ## How to Run Scope IOWait Plugin
 
+The Scope IOWait plugin can be executed stand alone.
+It will respond to `GET /report` request on the `/var/run/scope/plugins/iowait/iowait.sock` in a JSON format.
+If the running plugin has been registered by Scope, you will see it in the list of `PLUGINS` in the bottom right of the UI (see the red rectangle in the above figure).
+The measured value is shown in the *STATUS* section (see the circle in the above figure).
+
 ### Using a pre-built Docker image
 
 If you want to make sure of running the latest available version of the plugin, you pull the image from docker hub.
@@ -37,9 +42,6 @@ kubectl apply -f https://github.com/weaveworks-plugins/scope-iowait/tree/master/
 git clone git@github.com:weaveworks-plugins/scope-iowait.git
 cd scope-iowait; make;
 ```
-
-**Note** If Scope IOWait plugin has been registered by Scope, you will see it in the list of `PLUGINS` in the bottom right of the UI (see the rectangle in the above figure).
-The measured value is showed in the *STATUS* section (see the circle in the above figure).
 
 ## How to use Scope IOWait Plugin
 
