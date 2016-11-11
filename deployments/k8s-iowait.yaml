@@ -20,14 +20,9 @@ spec:
           securityContext:
             privileged: true
           volumeMounts:
-          - name: docker-sock
-            mountPath: /var/run/docker.sock
           - name: scope-plugins
             mountPath: /var/run/scope/plugins
       volumes:
-      - name: docker-sock
-        hostPath:
-          path: /var/run/docker.sock
       - name: scope-plugins
         hostPath:
           path: /var/run/scope/plugins
