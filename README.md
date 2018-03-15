@@ -33,7 +33,7 @@ docker run --rm -ti \
 If you want to use the Scope IOWait plugin in an already set up Kubernetes cluster with Weave Scope running on it, you just need to run:
 
 ```
-kubectl apply -f https://github.com/weaveworks-plugins/scope-iowait/tree/master/deployments/k8s-iowait.yaml
+kubectl apply -f https://raw.githubusercontent.com/weaveworks-plugins/scope-iowait/master/deployments/k8s-iowait.yaml
 ```
 
 ### Recompiling an image
