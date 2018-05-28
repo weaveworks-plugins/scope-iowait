@@ -56,9 +56,12 @@ To switch between metrics you can use the controls. The `clock` icon (see green 
 
 If you have any questions about, feedback for or problems with `scope-iowait`:
 
-- Invite yourself to the <a href="https://weaveworks.github.io/community-slack/" target="_blank"> #weave-community </a> slack channel.
-- Ask a question on the <a href="https://weave-community.slack.com/messages/general/"> #weave-community</a> slack channel.
-- Send an email to <a href="mailto:weave-users@weave.works">weave-users@weave.works</a>
-- <a href="https://github.com/weaveworks-plugins/scope-iowait/issues/new">File an issue.</a>
+- Read [the Weave Scope docs](https://www.weave.works/docs/scope/latest/introducing/).
+- Invite yourself to the <a href="https://weaveworks.github.io/community-slack/" target="_blank">Weave community</a> slack.
+- Ask a question on the [#scope](https://weave-community.slack.com/messages/scope/) slack channel.
+- Join the [Weave User Group](https://www.meetup.com/pro/Weave/) and get invited to online talks, hands-on training and meetups in your area.
+- Send an email to [Scope community group](https://groups.google.com/forum/#!forum/scope-community).
+- Join (and read up on) the regular [Scope community meetings](https://docs.google.com/document/d/103_60TuEkfkhz_h2krrPJH8QOx-vRnPpbcCZqrddE1s/edit).
+- [File an issue](https://github.com/weaveworks-plugins/scope-iowait/issues/new).
 
 Your feedback is always welcome!
