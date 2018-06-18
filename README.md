@@ -52,13 +52,8 @@ The plugin can show in the UI 2 metrics collected by _iostat_:
 
 To switch between metrics you can use the controls. The `clock` icon (see green box in the above figure) switches to IO Wait metric and the `gears` icon switches to idle metric.
 
-## <a name="help"></a>Getting Help
+## Getting Help
 
-If you have any questions about, feedback for or problems with `scope-iowait`:
-
-- Invite yourself to the <a href="https://weaveworks.github.io/community-slack/" target="_blank"> #weave-community </a> slack channel.
-- Ask a question on the <a href="https://weave-community.slack.com/messages/general/"> #weave-community</a> slack channel.
-- Send an email to <a href="mailto:weave-users@weave.works">weave-users@weave.works</a>
-- <a href="https://github.com/weaveworks-plugins/scope-iowait/issues/new">File an issue.</a>
-
-Your feedback is always welcome!
+We love hearing from you and encourage you to join our community. For more
+information on how to get help or get in touch, see [Scope's help
+section](https://github.com/weaveworks/scope/#help).
