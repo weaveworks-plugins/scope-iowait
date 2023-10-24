@@ -1,4 +1,4 @@
-# Scope IOWait Plugin
+# DEPRECATED: Scope IOWait Plugin
 
 The Scope IOWait plugin is a GO application that uses [`iostat`](https://linux.die.net/man/1/iostat) to provide **host-level** CPU IO wait or idle metrics in the [Weave Scope](https://github.com/weaveworks/scope) UI.
 
